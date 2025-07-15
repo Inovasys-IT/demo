@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.todo-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+#todo-form input {
+    width: 70%;
+    padding: 8px;
+    margin-right: 5px;
+}
+
+#todo-form button {
+    padding: 8px 12px;
+}
+
+#todo-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+#todo-list li.completed span {
+    text-decoration: line-through;
+    color: #888;
+}
+
+#todo-list li button {
+    border: none;
+    background: none;
+    color: red;
+    cursor: pointer;
+}
